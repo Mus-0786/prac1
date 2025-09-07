@@ -1,0 +1,111 @@
+body {
+  background-image: url('images/flag.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #01010f;
+  line-height: 1.6;
+  min-height: 100vh;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  font-size: larger;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  background: transparent;
+
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #f80c0c;
+}
+.image-section {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  gap: 300px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+  
+}
+
+.image-section img {
+  width: 500px;
+  height: 600px;
+  border-radius: 12px;
+  border: 3px solid rgb(236, 235, 235);
+  box-shadow: 5px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.image-text {
+  background: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(104, 164, 181, 0.1);
+  margin-bottom: 20px;
+  align-items: right;
+  max-width: 600px;
+  color: rgb(18, 17, 17);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.image-text h3 p1{
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #a233c8;
+}
+.content {
+  background: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 8px rgba(42, 212, 16, 0.1);
+  margin-bottom: 20px;
+  width: auto;
+  height: auto;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.achievements {
+  margin-bottom: 20px;
+  background:transparent;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(103, 196, 117, 0.904);
+}
+
+.content h2, .achievements h2 {
+  color: #1b720b;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.content p, .achievements ul {
+  text-align: justify;
+}
+
+.achievements ul {
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
